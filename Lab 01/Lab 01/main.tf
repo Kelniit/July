@@ -1,3 +1,4 @@
+# Course : Getting Started with Terraform for Google Cloud
 # Lab : Infrastructure as Code with Terraform
 
 resource "google_compute_instance" "terracompute" {
