@@ -5,7 +5,7 @@ provider "google" {
   region = "us-central1"
 }
 
-resource "google_storage_bucket" "TerraStorage" {
+resource "google_storage_bucket" "cloud_storage" {
   name = "google-storage-terraform-init"
   location = "US"
   storage_class = "STANDARD"
