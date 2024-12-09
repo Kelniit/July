@@ -1,11 +1,11 @@
 variable "project" {
-  default = "qwiklabs-gcp-00-5f47953980f3"
+  default = "qwiklabs-gcp-04-b9a25141abf3"
   type = string
   description = "Google Project ID"
 }
 
 variable "zone" {
-  default = "us-west1-a"
+  default = "us-west1-b"
   type = string
   description = "Google Project Zone"
 }
