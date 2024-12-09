@@ -1,4 +1,4 @@
-variable "project_id" {
+variable "project" {
   default = "qwiklabs-gcp-00-5f47953980f3"
   type = string
   description = "Google Project ID"
