@@ -1,10 +1,11 @@
 # Lab : Terraform Fundamentals
 
-resource "google_compute_instance" "terracompute" {
+resource "google_compute_instance" "terraform" {
   # Google Compute Engine
   project = var.project
   name = var.compute_name
   machine_type = var.machine_type
+  zone = var.zone
 
   boot_disk {
     # Specified Boot Disk - Store Your Operating System
