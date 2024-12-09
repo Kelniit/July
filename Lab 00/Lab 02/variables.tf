@@ -1,13 +1,7 @@
-variable "project_id" {
+variable "project" {
   default = "qwiklabs-gcp-00-5f47953980f3"
   type = string
   description = "Google Project ID"
-}
-
-variable "region" {
-  default = "us-west1"
-  type = string
-  description = "Google Project Region"
 }
 
 variable "zone" {
@@ -37,15 +31,4 @@ variable "network_interface" {
   default = "default"
   type = string
   description = "How VM Can Access the Network"
-}
-
-variable "tags" {
-  default = ["web", "dev"]
-  type = list(string)
-}
-
-variable "allow_stopping_for_update" {
-  default = true
-  type = bool
-  description = "Allow Compute Engine Stop for Update"
 }
